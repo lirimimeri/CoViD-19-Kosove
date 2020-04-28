@@ -26,7 +26,6 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
         this.setState({ Kosovo: data });
-        console.log(data);
         this.setState({ isLoading: false });
       });
   }
