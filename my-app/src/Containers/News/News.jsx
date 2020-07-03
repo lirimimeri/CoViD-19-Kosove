@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-import corona3 from "../../photos/corona3.jpg";
-import dogs from "../../photos/dogs.png";
-import cough from "../../photos/cough.jpg";
+
+import dogs from "../../Photos/dogs.png";
+import cough from "../../Photos/cough.jpg";
 import Keshilla from "../Keshilla/Keshilla";
+import corona3 from "../../Photos/corona3.jpg";
 import './news.styles.css'
 
 class News extends Component {
