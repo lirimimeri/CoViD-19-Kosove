@@ -1,24 +1,21 @@
 import React from "react";
-
+import "./footer.styles.css"
 
 function Footer() {
   return (
     <div className="footer">
-      Feedback
-      <br />
-      <br />
       <div className="row">
         <div className="col">
-          <i className="fas fa-envelope pr-1" />
-          <h4>lirimimeri17@gmail.com</h4> 
+          <a><i className="fas fa-envelope" /></a>
         </div>
         <div className="col">
-          <i className="fab fa-github pr-1" />
-          <h4>lirimimeri</h4> 
+          <a href="https://github.com/lirimimeri"><i className="fab fa-github" /></a>
         </div>
         <div className="col">
-          <i className="fab fa-facebook"/>
-          <h4>lirimimeri.1</h4>
+          <a href="https://www.facebook.com/lirimimeri1">
+            <i className="fab fa-facebook"/>
+            </a>
+          
         </div>
       </div>
       <div className="footer-copyright text-center">

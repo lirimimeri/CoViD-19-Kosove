@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./styles/styles.css";
-import Header from "./Header";
-import CovidData from "./CovidData";
-import News from "./News";
-import Footer from "./Footer";
+import "./app.container.css";
+import Header from "../../components/Header/Header";
+import CovidData from "../../components/CovidData/CovidData";
+import News from "../News/News";
+import Footer from "../../components/Footer/Footer";
 
 function AppContainer(props) {
   return (

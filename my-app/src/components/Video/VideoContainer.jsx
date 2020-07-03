@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/video.css'
+import "./styles/video.css";
 
 class VideoContainer extends React.Component {
   constructor(props) {
@@ -28,4 +28,14 @@ class VideoContainer extends React.Component {
       </div>
     );
   }
+  playVideo = () => {
+    this.vidRef.current.play();
+    this.setState({ isPlaying: true });
+    document.getElementById("p2").style.display = "none";
+  };
+  stopVideo = () => {
+    this.vidRef.current.pause();
+    this.setState({ isPlaying: false });
+    document.getElementById("p2").style.display = "block";
+  };
 }

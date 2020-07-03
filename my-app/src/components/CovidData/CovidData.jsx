@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles/covidData.css";
+import "./covidData.css";
 
 function CovidData(props) {
   return (
     <div className="te-dhenat">
         <div className="row">
           <div className="col">
-      <div className="data">
+      <div className="data confirmed">
             <h5>Të konfirmuara</h5>
             <h4>
               {props.isLoading ? (
@@ -20,7 +20,7 @@ function CovidData(props) {
         </div>
 
         <div className="col">
-          <div className="data">
+          <div className="data recovered">
             <h5> Të shëruar </h5>
             <h4>
               {props.isLoading ? (
@@ -34,7 +34,7 @@ function CovidData(props) {
         </div>
 
         <div className="col">
-          <div className="data">
+          <div className="data deaths">
             <h5> Të vdekur </h5>
             <h4>
               {props.isLoading ? (

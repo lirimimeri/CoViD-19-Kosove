@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 
-import corona3 from "./.photos/corona3.jpg";
-import dogs from "./.photos/dogs.png";
-import cough from "./.photos/cough.jpg";
-import Keshilla from "./Keshilla";
+import corona3 from "../../photos/corona3.jpg";
+import dogs from "../../photos/dogs.png";
+import cough from "../../photos/cough.jpg";
+import Keshilla from "../Keshilla/Keshilla";
+import './news.styles.css'
 
 class News extends Component {
   render() {
     return (
-      <div>
+      <div className="news">
         <div className="row">
-          <div className="col" style={{ textAlign: "right" }}>
-            <h2 style={{ fontWeight: "lighter" }}>
-              Cfarë është virusi CoVID-19 ?
+          <div className="col right">
+            <h2>
+              Cfarë është virusi CoVID-19
             </h2>
             <h5>
               {" "}
@@ -35,17 +36,17 @@ class News extends Component {
         </div>
 
         <div className="row">
-          <div className="col">
+          <div className="col left">
             <img
               className="fotoballina"
               src={cough}
-              width="600px"
-              height="300px"
+              width="100%"
+              height="100%"
               alt="Foto e virusit"
             />
           </div>
-          <div className="col" style={{ textAlign: "left" }}>
-            <h2 style={{ fontWeight: "lighter" }}>
+          <div className="col right">
+            <h2>
               Cilat janë simptomat e një personi të infektuar me koronavirus?
             </h2>
             <h5>
@@ -61,7 +62,7 @@ class News extends Component {
         </div>
 
         <div className="row">
-          <div className="col" style={{ textAlign: "right" }}>
+          <div className="col right">
             <h2 style={{ fontWeight: "lighter" }}>
               A mund të infektohen njerëzit me koronavirusin e ri ku si burim
               infektimi janë kafshët?
@@ -78,10 +79,10 @@ class News extends Component {
           </div>
           <div className="col">
             <img
-              className="fotoballina"
+              className="left"
               src={dogs}
-              width="600px"
-              height="300px"
+              width="100%"
+              height="100%"
               alt="Foto e virusit"
             />
           </div>
@@ -91,16 +92,6 @@ class News extends Component {
       </div>
     );
   }
-  playVideo = () => {
-    this.vidRef.current.play();
-    this.setState({ isPlaying: true });
-    document.getElementById("p2").style.display = "none";
-  };
-  stopVideo = () => {
-    this.vidRef.current.pause();
-    this.setState({ isPlaying: false });
-    document.getElementById("p2").style.display = "block";
-  };
 }
 
 export default News;

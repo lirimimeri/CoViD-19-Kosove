@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppContainer from './components/AppContainer';
+import AppContainer from './Containers/AppContainer/AppContainer';
 
 class App extends Component {
   state = {

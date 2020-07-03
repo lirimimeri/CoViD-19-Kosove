@@ -1,0 +1,44 @@
+.fa-facebook,
+.fa-github,
+.fa-envelope {
+  color: rgb(69, 88, 88) !important;
+  font-size: 3em !important;
+  font-size: 3em !important;
+}
+
+.footer .row {
+  background-color: #d3c3c3;
+  padding: 0 !important;
+  border-left: 10px solid rgb(12, 143, 219);
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.5em;
+  color: #1c3c3d;
+  height: auto;
+  background-color: #c3ced3;
+}
+
+
+.footer-copyright {
+    background-color: #cddfe7;
+    color: rgb(60, 104, 141)
+  }
+
+.fa-facebook,
+.fa-github,
+.fa-envelope {
+  color: rgb(59, 110, 187) !important;
+  font-size: 1.5em !important;
+  padding: 10px !important;
+}
+
+.footer .col {
+    margin: 0 10% 0 10% !important;
+}
+
+.footer .row {
+    background-color: #d8e6ec;
+}
+
