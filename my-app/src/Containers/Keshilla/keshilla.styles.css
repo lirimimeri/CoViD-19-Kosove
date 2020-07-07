@@ -1,5 +1,24 @@
 .keshilla i {
-    color: rgb(44, 189, 145);
+    color: rgba(27, 148, 148, 0.63);
+}
+.keshilla .col {
+    -webkit-box-shadow: 0 25px 20px rgb(116, 132, 133);
+    -moz-box-shadow: 0 25px 20px rgb(116, 132, 133);
+    box-shadow: 0 10px 15px rgba(116, 132, 133, 0.678);
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(210, 231, 230, 0.247);
+}
+
+.keshilla h5 {
+    padding-top: 0.5em;
+}
+
+.keshilla .col {
+    border-top: 0.5em solid rgba(27, 148, 148, 0.63);
+    padding: 1em;
 }
 
 

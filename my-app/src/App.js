@@ -13,8 +13,6 @@ class App extends Component {
         <AppContainer
           data={this.state.Kosovo}
           isLoading={this.state.isLoading}
-          isNewsClicked={this.state.isNewsClicked}
-          handleNews={this.handleNews}
         />
       </div>
     );

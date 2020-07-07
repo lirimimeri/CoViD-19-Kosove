@@ -5,7 +5,7 @@ function Keshilla() {
   return (
     <div className="keshilla">
       <div
-        className="row row-one"
+        className="row"
       >
         <div className="col">
           <i className="fas fa-hands-wash fa-3x"></i>

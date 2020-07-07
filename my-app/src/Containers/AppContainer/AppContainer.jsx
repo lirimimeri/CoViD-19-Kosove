@@ -10,7 +10,6 @@ function AppContainer(props) {
   return (
     <div className="divikryesor">
       <Header
-        isNewsClicked={props.isNewsClicked}
         handleNews={props.handleNews}
       />
       <CovidData data={props.data} isLoading={props.isLoading} />

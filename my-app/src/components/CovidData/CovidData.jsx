@@ -8,13 +8,14 @@ function CovidData(props) {
           <div className="col">
       <div className="data confirmed">
             <h5>Të konfirmuara</h5>
+            <i className="fas fa-user-plus"></i>
+            <br/>
             <h4>
               {props.isLoading ? (
                 <i className="fas fa-spinner fa-spin"></i>
               ) : (
                 props.data.infected
               )}
-              <i className="fas fa-user-plus"></i>
             </h4>
           </div>
         </div>
@@ -22,13 +23,13 @@ function CovidData(props) {
         <div className="col">
           <div className="data recovered">
             <h5> Të shëruar </h5>
+            <i className="far fa-smile-beam" /><br />
             <h4>
               {props.isLoading ? (
                 <i className="fas fa-spinner fa-spin" />
                 ) : (
                   props.data.recovered
                 )}{" "}
-                <i className="far fa-smile-beam" />
             </h4>
           </div>
         </div>
@@ -36,15 +37,15 @@ function CovidData(props) {
         <div className="col">
           <div className="data deaths">
             <h5> Të vdekur </h5>
+            <i
+                className="fas fa-heart-broken"
+              ></i><br />
             <h4>
               {props.isLoading ? (
                 <i className="fas fa-spinner fa-spin" />
               ) : (
                 props.data.deceased
               )}
-              <i
-                className="fas fa-heart-broken"
-              ></i>
             </h4>
           </div>
         </div>

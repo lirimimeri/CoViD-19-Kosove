@@ -8,9 +8,8 @@
 }
 
 .te-dhenat .data {
-  margin: 15%;
+  margin: 5%;
   padding-bottom: 30px;
-  border-bottom: 5px solid rgb(71, 126, 189);
 }
 
 .fa-smile-beam,
@@ -22,21 +21,46 @@
 }
 
 .te-dhenat .confirmed {
-  border-bottom: 5px solid rgb(71, 126, 189);
+  padding-top: 0em;
+  background-color: rgba(210, 231, 230, 0.247);
+  border-top: 5px solid rgb(71, 126, 189);
   color: rgb(71, 126, 189);
+  border-radius: 5px;
+  padding-top: 0.8em;
+  -webkit-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  -moz-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  box-shadow: 0 10px 15px rgba(116, 132, 133, 0.678);
+  
+
 }
 
 .te-dhenat .recovered {
-  border-bottom: 5px solid rgb(71, 189, 150);
+  border-top: 5px solid rgb(71, 189, 150);
+  background-color: rgba(210, 231, 230, 0.247);
   color: rgb(71, 189, 150);
+  border-radius: 5px;
+  padding-top: 0.8em;
+  -webkit-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  -moz-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  box-shadow: 0 10px 15px rgba(116, 132, 133, 0.678);
 }
 
 .te-dhenat .deaths {
-  border-bottom: 5px solid rgb(172, 73, 73);
+  padding-top: 0.8em;
+  background-color: rgba(210, 231, 230, 0.247);
+  border-top: 5px solid rgb(172, 73, 73);
   color: rgb(172, 73, 73);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  -moz-box-shadow: 0 25px 20px rgb(116, 132, 133);
+  box-shadow: 0 10px 15px rgba(116, 132, 133, 0.678);
 }
 
 .te-dhenat h5 {
   color: rgb(75, 117, 136);
   font-weight: bolder !important;
+}
+
+.te-dhenat h4 {
+  font-weight: bolder;
 }

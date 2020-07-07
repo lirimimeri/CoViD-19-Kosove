@@ -12,7 +12,7 @@ class News extends Component {
     return (
       <div className="news">
         <div className="row">
-          <div className="col right">
+          <div className="col left">
             <h2>
               Cfarë është virusi CoVID-19
             </h2>
@@ -37,16 +37,8 @@ class News extends Component {
         </div>
 
         <div className="row">
+          
           <div className="col left">
-            <img
-              className="fotoballina"
-              src={cough}
-              width="100%"
-              height="100%"
-              alt="Foto e virusit"
-            />
-          </div>
-          <div className="col right">
             <h2>
               Cilat janë simptomat e një personi të infektuar me koronavirus?
             </h2>
@@ -60,11 +52,20 @@ class News extends Component {
               derisa të prodhohet një vaksinë e re.
             </h5>
           </div>
+          <div className="col right">
+            <img
+              className="fotoballina"
+              src={cough}
+              width="100%"
+              height="100%"
+              alt="Foto e virusit"
+            />
+          </div>
         </div>
 
         <div className="row">
-          <div className="col right">
-            <h2 style={{ fontWeight: "lighter" }}>
+          <div className="col left">
+            <h2>
               A mund të infektohen njerëzit me koronavirusin e ri ku si burim
               infektimi janë kafshët?
             </h2>
@@ -80,7 +81,7 @@ class News extends Component {
           </div>
           <div className="col">
             <img
-              className="left"
+              className="right"
               src={dogs}
               width="100%"
               height="100%"
